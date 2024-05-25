@@ -1,0 +1,74 @@
+/* Login.module.css */
+
+/* Container for the entire form */
+.container {
+    margin: 15%;
+    border-style: solid;
+    width: 50%;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles for form groups */
+  .formGroup {
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for labels */
+  .label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Styles for input fields */
+  .inputField {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Styles for the button container */
+  .buttonGroup {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Styles for the submit button */
+  .submitButton {
+    padding: 10px;
+    background-color: #34db71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Styles for the register button */
+  .registerButton {
+    padding: 10px;
+    background-color: #27ae60;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .registerButton:hover {
+    background-color: #219653;
+  }
+
+  /* .userName{
+    margin-left: 10px;
+  }
+   */

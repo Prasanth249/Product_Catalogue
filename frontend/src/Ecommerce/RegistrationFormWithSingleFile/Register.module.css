@@ -1,0 +1,96 @@
+/* Register.module.css */
+
+/* Main container for the entire registration form */
+.container {
+    margin: auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 420px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #3498db; /* Changed background color to a shade of blue */
+  }
+  
+  /* Styles for the registration form */
+  .registerForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+  }
+  
+  /* Styles for input fields and buttons */
+  .inputField {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px; /* Adjusted font size for better readability */
+    padding: 0.5rem;
+    margin-top: 0.5rem; /* Added margin to separate input fields */
+    border-radius: 5px;
+    background-color: #fff; /* Set background color for input fields */
+  }
+  
+  /* Styles for labels */
+  .labelName {
+    margin-top: 1rem;
+    padding: 0.5rem;
+  }
+  
+  /* Styles for instructions and error messages */
+  .instructions,
+  .errmsg {
+    font-size: 0.75rem;
+    border-radius: 5px;
+    padding: 0.25rem;
+    margin-top: 5px;
+    background-color: #c43636;
+    color: #fff;
+  }
+  
+  .instructions > svg {
+    margin-right: 0.25rem;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+  }
+  
+  .invalid {
+    color: red;
+    margin-left: 0.25rem;
+  }
+  
+  .errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Styles for the link to sign in */
+  .alreadyRegistered,
+  .alreadyRegistered:visited {
+    color: #fff;
+    margin-top: 1rem;
+    text-decoration: none;
+  }
+  
+  /* Additional styling for the main app container */
+  .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem 0.5rem;
+  }
+  

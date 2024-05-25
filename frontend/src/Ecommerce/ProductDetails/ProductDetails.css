@@ -1,0 +1,62 @@
+/* ProductDetails.css */
+
+/* Container for the entire page */
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Adjusted grid columns for better layout */
+    gap: 2rem;
+    padding: 2rem;
+}
+
+/* Styling for the product image */
+.image {
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 440px;
+    height: auto;
+}
+
+/* Styling for the product details section */
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #333; /* Adjusted text color */
+}
+
+/* Styling for the buttons to add/remove items and Buy Now/Add to Cart */
+.productAddButton {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.buyNow,
+.addCart {
+    padding: 1rem 2rem; /* Increased padding for better visibility */
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.buyNow:hover,
+.addCart:hover {
+    background-color: #2980b9;
+}
+
+/* Additional styling for the ProductDescription */
+.quantity {
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.description {
+    margin-top: 1rem; /* Increased margin for better spacing */
+    color: #555; /* Adjusted text color */
+}
